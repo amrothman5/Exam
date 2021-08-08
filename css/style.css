@@ -1,0 +1,56 @@
+.navbar{
+    width: 150px;
+    height: 110px;
+    margin: 100px auto;
+   font-size: 30px;
+
+}
+.btn{
+    font-size: 17px;
+    width: 100px;
+    border: 1px solid red;
+    box-shadow: 10px;
+    color: black;
+}
+#watch{
+    font-family: 'Tourney', cursive;
+}
+.font{
+    font-size: 20px;
+}
+.form{
+    /* border: 2px solid blue */
+    color: whitesmoke;
+}
+.Q{
+    padding: 10px;
+}
+.QQ{
+    padding-top: 30px;
+}
+.submit{
+    margin: 10px;
+    width: 120px;
+    color: blue;
+    border: 2px solid gray;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 50%;
+}
+#Q11{
+    margin-left: 50px;
+    color: chartreuse;
+
+}
+#Q12{
+    margin-left: 50px;
+    color:chartreuse ;
+}
+#Q13{
+    margin-left: 50px;
+    color: chartreuse;
+}

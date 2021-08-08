@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>exam</title>
+</head>
+<body>
+    <head >
+        <nav id="navbar" class="navbar d-flex flex-column " >
+         <div id="watch" >00:00:00</div>
+         <div class="basic-btn">
+            <button  class="btn " id="btn1" onclick="startstop( )">Start</button>
+            <!-- <button class="btn " id="btn2" onclick="reset( )">Reset</button> -->
+        </div>
+        </nav>
+    </head>
+
+    <section>
+        <form class="container form bg-info">
+            <div class="d-flex flex-row  QQ">
+                <label class="col-3 font">How many kind of  functions ?</label>
+                <select class="col-6 " id="Q1" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">four</option>
+                    <option value="5">Five</option>
+
+                  </select>
+                  <div id="Q11" >    </div>
+
+            </div>
+            <div class="d-flex flex-row  Q">
+                <label class="col-3 font">How many data type? </label>
+                <select class="col-6 " id="Q2" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">four</option>
+                    <option value="5">Five</option>
+
+                  </select>
+                  <div id="Q12"></div>
+
+            </div>
+
+
+            <div class="d-flex flex-row  Q">
+                <label class="col-3 font">color in css for </label>
+                <select class="col-6 " id="Q3" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">backgroun</option>
+                    <option value="2">color of text</option>
+                    <option value="3">color of border</option>
+                    <option value="4">high light</option>
+                    <option value="5">background for body</option>
+
+                  </select>
+                  <div id="Q13" class="text-info"></div>
+
+            </div>
+
+            
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+
+            <input type="submit" id="submit" class="submit " onclick="dataEnter( )">
+        </form>
+    </section>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
